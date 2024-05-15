@@ -129,3 +129,22 @@ ul li:last-child a {
 .gurantee .item:hover .icon {
   background-color: bisque;
 }
+
+.gurantee .item .icon i {
+  font-size: 30px;
+}
+
+.gurantee .item .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gurantee .item .info h3 {
+  color: yellow;
+  font-size: 28px;
+}
+.gurantee .item .info p {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
