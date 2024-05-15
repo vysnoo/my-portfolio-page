@@ -127,7 +127,7 @@ ul li:last-child a {
   transition: background-color 0.3s ease;
 }
 .gurantee .item:hover .icon {
-  background-color: bisque;
+  background-color: olive;
 }
 
 .gurantee .item .icon i {
@@ -147,4 +147,34 @@ ul li:last-child a {
   color: white;
   font-size: 16px;
   font-weight: 600;
+}
+
+.gurantee .item > i {
+  color: white;
+  font-size: 30px;
+  transition: color 0.3s ease;
+}
+
+.gurantee .item:hover > i {
+  color: orange;
+}
+
+.separator {
+  margin: 50px 50px 30px;
+  padding: 10px 20px;
+  background-color: blue;
+  display: inline-block;
+  color: yellowgreen;
+  border-radius: 12px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 0 50px;
+}
+.about img {
+  width: 280px;
 }
