@@ -46,6 +46,8 @@ body {
 
 .resume-btn {
   background: #ffb742;
+  text-decoration: none;
+  color: #fff;
   padding: 6px 30px;
   border: none;
   font-size: 16px;
@@ -202,8 +204,9 @@ body {
   font-size: 14px;
 }
 
-.about .info button {
-  margin-top: 30px;
+.about .info a {
+  position: relative;
+  top: 30px;
 }
 
 .skills {
@@ -225,10 +228,6 @@ body {
 .skills .left .info p {
   color: #ccc;
   font-size: 14px;
-}
-
-.skills .left button {
-  margin-top: 30px;
 }
 
 .skills .right {
@@ -374,7 +373,7 @@ footer .cols .links-col a:hover {
 }
 
 @media screen and (max-width: 780px) {
-  .navbar button {
+  .navbar a {
     display: none;
   }
   .navbar {
