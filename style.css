@@ -474,6 +474,7 @@ footer .cols .links-col a:hover {
 
   .main p.subtitle {
     font-size: 10px;
+    text-align: center;
   }
 
   .guarantee .item .info h3 {
@@ -481,6 +482,7 @@ footer .cols .links-col a:hover {
   }
 
   .guarantee .item .info p {
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
   }
 }
