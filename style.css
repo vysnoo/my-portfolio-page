@@ -485,4 +485,8 @@ footer .cols .links-col a:hover {
     font-size: 10px;
     text-align: center;
   }
+
+  .cols .about-col {
+    margin-top: 50px;
+  }
 }
