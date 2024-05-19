@@ -373,7 +373,7 @@ footer .cols .links-col a:hover {
 }
 
 @media screen and (max-width: 780px) {
-  .navbar a {
+  .navbar .resume-btn {
     display: none;
   }
   .navbar {
